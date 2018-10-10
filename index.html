@@ -1,0 +1,434 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Course website for STAT 365/665: Data Mining and Machine Learning">
+  <meta name="author" content="Taylor B. Arnold">
+  <title>Taylor Arnold - STAT 289</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <!-- Google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- favicon -->
+  <link rel="alternate" type="application/rss+xml" title="Taylor Arnold - Assistant Professor of Statistics, University of Richmond" href="/stat329-s17/feed.xml" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/stat329-s17/assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/stat329-s17/assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/stat329-s17/assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/stat329-s17/assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/stat329-s17/assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/stat329-s17/assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/stat329-s17/assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/stat329-s17/assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/stat329-s17/assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/stat329-s17/assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/stat329-s17/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/stat329-s17/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/stat329-s17/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/stat329-s17/assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+
+<div id="header">
+  <h1>STAT/MATH 329: Introduction to Probability Theory</h1>
+  <div style="clear:both;"></div>
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Course Notes and Assignments</h2>
+
+  <i>Fall 2018<br> Mondays &amp; Wednesdays, 10:30-11:45 <br> JPSN 102<br><br></i>
+
+<b>Instructor</b>: Taylor Arnold<br>
+<b>E-mail</b>: tarnold2@richmond.edu<br>
+<b>Office</b>: Jepson Hall, Rm 218 <br>
+<b>Syllabus</b>: <a href="assets/syllabus/MATH329_Syllabus.pdf">MATH329_Syllabus.pdf</a><br>
+
+</div>
+</div>
+<div class="container sec">
+<table class="table">
+  <tr class="table-active">
+    <th>Date</th><th>Handouts</th><th>Worksheets</th><th>Solutions</th>
+  </tr>
+  <tr>
+    <td>2017-01-09</td>
+    <td>
+      <b>[<a href="assets/handouts/handout01.pdf">handout01.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-01.pdf">WS-01.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-01.pdf">WS-Solutions-01.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-01-11</td>
+    <td>
+      <b>[<a href="assets/handouts/handout02.pdf">handout02.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-02.pdf">WS-02.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-02.pdf">WS-Solutions-02.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-01-16</td>
+    <td>
+      <b>[<a href="assets/handouts/handout03.pdf">handout03.pdf</a>]</b><br>
+      <b>[<a href="assets/lecture_problems/problems03.pdf">problems03.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-03.pdf">WS-03.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-03.pdf">WS-Solutions-03.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-01-18</td>
+    <td>
+      <b>[<a href="assets/handouts/handout04.pdf">handout04.pdf</a>]</b><br>
+      <b>[<a href="assets/lecture_problems/problems04.pdf">problems04.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-04.pdf">WS-04.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-04.pdf">WS-Solutions-04.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-01-23</td>
+    <td>
+      <b>[<a href="assets/handouts/handout05.pdf">handout05.pdf</a>]</b><br>
+      <b>[<a href="assets/lecture_problems/problems05.pdf">problems05.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-05.pdf">WS-05.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-05.pdf">WS-Solutions-05.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-01-25</td>
+    <td>
+      <b>[<a href="assets/handouts/handout06.pdf">handout06.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-06.pdf">WS-06.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-06.pdf">WS-Solutions-06.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr class="table-info">
+    <td>2017-01-30</td>
+    <td>
+      <b>[Review]</b>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="table-success">
+    <td>2017-02-01</td>
+    <td>
+      <b>[Exam I]</b>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-02-06</td>
+    <td>
+      <b>[<a href="assets/handouts/handout07.pdf">handout07.pdf</a>]</b><br>
+      <b>[<a href="assets/lecture_problems/problems07.pdf">problems07.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-07.pdf">WS-07.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-07.pdf">WS-Solutions-07.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-02-08</td>
+    <td>
+      <b>[<a href="assets/handouts/handout08.pdf">handout08.pdf</a>]</b><br>
+      <b>[<a href="assets/lecture_problems/problems08.pdf">problems08.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-08.pdf">WS-08.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-08.pdf">WS-Solutions-08.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-02-13</td>
+    <td>
+      <b>[<a href="assets/handouts/handout09.pdf">handout09.pdf</a>]</b><br>
+      <b>[<a href="assets/lecture_problems/problems09.pdf">problems09.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-09.pdf">WS-09.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-09.pdf">WS-Solutions-09.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-02-15</td>
+    <td>
+      <b>[<a href="assets/handouts/handout10.pdf">handout10.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-10.pdf">WS-10.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-10.pdf">WS-Solutions-10.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-02-20</td>
+    <td>
+      <b>[<a href="assets/handouts/handout11.pdf">handout11.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-11.pdf">WS-11.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-11.pdf">WS-Solutions-11.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-02-22</td>
+    <td>
+      <b>[<a href="assets/handouts/handout12.pdf">handout12.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-12.pdf">WS-12.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-12.pdf">WS-Solutions-12.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr class="table-info">
+    <td>2017-02-27</td>
+    <td>
+      <b>[Review]</b>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="table-success">
+    <td>2017-03-01</td>
+    <td>
+      <b>[Exam II]</b>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+ <tr class="table-warning">
+    <td>2017-03-06</td>
+    <td>
+      [Spring Break]
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+ <tr class="table-warning">
+    <td>2017-03-08</td>
+    <td>
+      [Spring Break]
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-03-13</td>
+    <td>
+      <b>[<a href="assets/handouts/handout13.pdf">handout13.pdf</a>]</b><br>
+      <b>[<a href="assets/handouts/distributions.pdf">distributions.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-13.pdf">WS-13.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-13.pdf">WS-Solutions-13.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-03-15</td>
+    <td>
+      <b>[<a href="assets/handouts/handout14.pdf">handout14.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-14.pdf">WS-14.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-14.pdf">WS-Solutions-14.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-03-20</td>
+    <td>
+      <b>[<a href="assets/handouts/handout15.pdf">handout15.pdf</a>]</b><br>
+      <b>[<a href="assets/lecture_problems/problems15.pdf">problems15.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-15.pdf">WS-15.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-15.pdf">WS-Solutions-15.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-03-22</td>
+    <td>
+      <b>[<a href="assets/handouts/handout16.pdf">handout16.pdf</a>]</b><br>
+      <b>[<a href="assets/lecture_problems/problems16.pdf">problems16.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-16.pdf">WS-16.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-16.pdf">WS-Solutions-16.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr class="table-info">
+    <td>2017-03-27</td>
+    <td>
+      <b>[Review]</b>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="table-success">
+    <td>2017-03-29</td>
+    <td>
+      <b>[Exam III]</b>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-04-03</td>
+    <td>
+      <b>[<a href="assets/handouts/handout17.pdf">handout17.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-17.pdf">WS-17.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-17.pdf">WS-Solutions-17.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-04-05</td>
+    <td>
+      <b>[<a href="assets/handouts/handout18.pdf">handout18.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-18.pdf">WS-18.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-18.pdf">WS-Solutions-18.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-04-10</td>
+    <td>
+      <b>[<a href="assets/handouts/handout19.pdf">handout19.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-19.pdf">WS-19.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-19.pdf">WS-Solutions-19.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr>
+    <td>2017-04-12</td>
+    <td>
+      <b>[<a href="assets/handouts/handout20.pdf">handout20.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/worksheets/WS-20.pdf">WS-20.pdf</a>]</b>
+    </td>
+    <td>
+      <b>[<a href="assets/solutions/WS-Solutions-20.pdf">WS-Solutions-20.pdf</a>]</b>
+    </td>
+  </tr>
+  <tr class="table-info">
+    <td>2017-04-17</td>
+    <td>
+      <b>[Review]</b>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="table-success">
+    <td>2017-04-19</td>
+    <td>
+      <b>[Exam IV]</b>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+</table>
+</div>
+
+
+
+
+
+<!-- jQuery and Boostrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
